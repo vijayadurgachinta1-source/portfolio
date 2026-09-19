@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5500/portfolio.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vijaya Durga Portfolio</title>
+
+<link rel="stylesheet" href="./Vijaya Durga Portfolio_files/portfolio.css">
+</head>
+
+<body>
+
+<nav>
+    <h2>Portfolio</h2>
+
+    <ul>
+        <li><a href="http://127.0.0.1:5500/portfolio.html#about">About</a></li>
+        <li><a href="http://127.0.0.1:5500/portfolio.html#skills">Skills</a></li>
+        <li><a href="http://127.0.0.1:5500/portfolio.html#education">Education</a></li>
+        <li><a href="http://127.0.0.1:5500/portfolio.html#projects">Projects</a></li>
+        <li><a href="http://127.0.0.1:5500/portfolio.html#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="heroine">
+
+    <img src="./Vijaya Durga Portfolio_files/my passportsize.jpg" alt="profile">
+
+    <h1>Hi, I'm Vijaya Durga Sri Mani Kumari</h1>
+
+    <p>B.Tech Final Year Student</p>
+
+    <a href="file:///C:/Users/vijay/Downloads/Vijaya%20durga%20chinta%20resume.pdf" class="btn">
+        Download Resume
+    </a>
+
+</section>
+
+<section id="about">
+
+    <h2>About Me</h2>
+
+    <p>
+        Final-year B.Tech student with SAP ABAP training and
+        strong interest in Software Development and Data Analytics.
+    </p>
+
+</section>
+
+<section id="skills">
+
+    <h2>Skills</h2>
+
+    <div class="cards">
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">JAVA</div>
+        <div class="card">PYTHON</div>
+        <div class="card">SAP ABAP</div>
+        <div class="card">SQL</div>
+    </div>
+
+</section>
+
+<section id="education">
+
+    <h2>Education</h2>
+
+    <div class="edu">
+        <h3>Vishnu Institute of Technology</h3>
+        <p>B.Tech - Final Year</p>
+    </div>
+
+</section>
+
+<section id="projects">
+
+    <h2>Projects</h2>
+
+    <div class="project-card">
+        <h3>Billing Document Report</h3>
+        <p>SAP ABAP Project</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Exploratory Data Analysis</h3>
+        <p>Python, Pandas, Matplotlib</p>
+    </div>
+
+</section>
+
+<section id="contact">
+
+    <h2>Contact</h2>
+
+    <p>Email: vijayadurgachinta1@gmail.com</p>
+
+    <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/vijayadurga-chinta-476b75421">
+            Profile
+        </a>
+    </p>
+
+    <p>GitHub: github.com/yourprofile</p>
+
+</section>
+
+<script src="./Vijaya Durga Portfolio_files/script.js.download"></script>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
