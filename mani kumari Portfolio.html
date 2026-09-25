@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijaya Durga Portfolio</title>
+    <link rel="stylesheet" href="./mani kumari Portfolio_files/style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Vijaya Durga Sri Mani Kumari</h1>
+        <p>Aspiring Software Developer</p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="http://127.0.0.1:5500/index.html#home">Home</a>
+        <a href="http://127.0.0.1:5500/index.html#skills">Skills</a>
+        <a href="http://127.0.0.1:5500/index.html#projects">Projects</a>
+        <a href="http://127.0.0.1:5500/index.html#contact">Contact</a>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- HOME SECTION -->
+        <section id="home">
+            <img src="./mani kumari Portfolio_files/my passportsize.jpg" alt="Profile Photo" class="profile-img">
+
+            <h2>Introduction</h2>
+
+            <p>
+                I am Vijaya Durga Sri Mani Kumari, a B.Tech Final Year Student
+                passionate about Software Development, Web Development,
+                SAP ABAP, and Data Analytics.
+            </p>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+
+            <div class="skills-container">
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">SQL</div>
+                <div class="skill">React</div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>
+                    A personal portfolio website to showcase my education,
+                    skills, and projects.
+                </p>
+                <p><strong>Technologies:</strong> HTML, CSS</p>
+                <a href="http://127.0.0.1:5500/index.html#">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Student Management System</h3>
+                <p>
+                    A simple system to manage student records and information.
+                </p>
+                <p><strong>Technologies:</strong> Java, MySQL</p>
+                <a href="http://127.0.0.1:5500/index.html#">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Billing Document Report</h3>
+                <p>
+                    SAP ABAP report for displaying billing document details.
+                </p>
+                <p><strong>Technologies:</strong> SAP ABAP</p>
+                <a href="http://127.0.0.1:5500/index.html#">View Project</a>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact">
+            <h2>Contact Information</h2>
+
+            <p>
+                <strong>Email:</strong>
+                vijayadurgachinta1@gmail.com
+            </p>
+
+            <p>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/vijayadurgachinta1-source" target="_blank">
+                    GitHub Profile
+                </a>
+            </p>
+
+            <p>
+                <strong>LinkedIn:</strong>
+                <a href="https://www.linkedin.com/in/vijayadurga-chinta-476b75421" target="_blank">
+                    LinkedIn Profile
+                </a>
+            </p>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            © 2026 Vijaya Durga Sri Mani Kumari. All Rights Reserved.
+        </p>
+    </footer>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
